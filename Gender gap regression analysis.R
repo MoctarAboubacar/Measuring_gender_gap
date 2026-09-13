@@ -12,7 +12,7 @@ require(sandwich)
 
 
 ## directory and load data
-setwd("C:/Users/Leurre/Desktop")
+# Paths are resolved relative to the project root via here::here().
 file <- "2019staffcosts.csv"
 dat <- read_csv(file)
 glimpse(dat)
